@@ -26,14 +26,14 @@ The dataset is from the UCI Machine Learning repository and was collected via a 
 
 ## General Findings
 
-Carryout & takeaway coupons and those for cheaper restaurants have the highest acceptance rates, indicating strong customer preference for these options. Bar coupons, on the other hand, have the lowest acceptance rates. Coffee house coupons show a nearly equal split in acceptance, with a rate of 49.57%.
+Carry out & take away coupons and those for cheaper restaurants have the highest acceptance rates, indicating strong customer preference for these options. Bar coupons, on the other hand, have the lowest acceptance rates. Coffee house coupons show a nearly equal split in acceptance, with a rate of 49.57%.
 
 
 ## Findings about Bar Coupons
 Drivers are twice as likely to accept a bar coupon if they:
 1. Visit bar more than three times a month.
 2. Visit bar more than once a month and are over 25 years old.
-3. Visit bar more than once a month, are not employed in farming, fishing, or forestry ,and have no child passengers.
+3. Visit bar more than once a month, are not employed in farming, fishing, or forestry, and have no child passengers.
 
 Overall, frequent bar-goers are significantly more inclined to take advantage of bar coupons compared to other groups.
 
@@ -54,6 +54,17 @@ In contrast, individuals with lower incomes or those who frequently dine at inex
 	- Weather: Has minimal influence on coupon acceptance.
 	- Gender: Has little to no effect on coupon acceptance rates.
 	- Income: Acceptance rates remain consistent across income groups, typically around 50%, showing negligible influence on coffee coupon acceptance.
+
+3. Drivers in “healthcare practitioners & technical” and “building & grounds cleaning & maintenance” occupations show the highest coffee consumption. Following them are groups such as “transportation & material moving,” “healthcare support,” and “students.” For all other occupations, the acceptance rate remains consistent within the 45% to 55% range.
+
+
+## Next Steps and Recommendations
+
+- Test out different coupon scenarios to see how drivers might react under various conditions.
+
+- Combine existing features, like pairing “age + income group” or “time of day + passenger type,” to uncover hidden relationships.
+
+- Use machine learning models to predict coupon acceptance probability.
 
 
 ## Tools and Technologies
